@@ -1,0 +1,10 @@
+[package]
+name = "jobqu_examples_sqlite"
+version = "0.1.0"
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+jobqu = { path = "../../jobqu", features = ["sqlite"] }
+tokio = { version = "1.41", features = [] }

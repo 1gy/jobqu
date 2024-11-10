@@ -1,0 +1,8 @@
+[workspace]
+members = ["jobqu", "examples/*"]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+authors = ["1gy"]
+license = "MIT"
